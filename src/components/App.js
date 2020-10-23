@@ -6,10 +6,10 @@ class App extends Component {
   render() {
     return (
       <>
-        <ProjectName key="project-name" id="project-name" />
+        <ProjectName key="project-name" data-ns-test="project-name" />
         <ProjectDescription
           key="project-description"
-          id="project-description"
+          data-ns-test="project-description"
         />
       </>
     );
